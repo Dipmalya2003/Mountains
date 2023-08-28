@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149152830.jpg?w=900&t=st=1693228681~exp=1693229281~hmac=783fc8d9ae7654f602133ead15679201c1d87f77e223e0e6241a6a851ef9b2fe);
+
+    background-size: cover;
+    background-position: 60% 40%;
+}
+
+#over {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #c5141427;
+}
+
+#text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+}
+
+#right {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right p {
+    font-size: 12px;
+    width: 40%;
+    align-items: center;
+    color: rgba(245, 245, 245, 0.468);
+}
+
+#text h1 {
+    font-size: 6vw;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+#icon {
+    color: rgb(245, 245, 245);
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: blue;
+}
+
+#part1 {
+    width: 25%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/mountains-with-lake-sunset_1048-2387.jpg?w=1060&t=st=1693235437~exp=1693236037~hmac=17082262f14e04f6ad759bfd804166a87c95e744c0c0bc623562ac7aa89749b6);
+    background-size: cover;
+}
+
+#part2 {
+    width: 25%;
+    height: 100%;
+    padding: 55px;
+    background-color: rgba(188, 74, 33, 0.877);
+    color: rgba(255, 253, 253, 0.667);
+}
+
+#part3 {
+    width: 25%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-vector/man-stood-mountain-landscape-sunset_1048-8443.jpg?w=900&t=st=1693232188~exp=1693232788~hmac=160cce15caba80d85b14199334883e3b5494ac69139aae8a7778993b4821b1e8);
+    background-size: cover;
+}
+
+#part4 {
+    width: 25%;
+    height: 100%;
+    padding: 60px;
+    background-color: rgb(235, 58, 13);
+    color: rgba(255, 253, 253, 0.667);
+}
